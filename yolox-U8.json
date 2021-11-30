@@ -1,0 +1,23 @@
+{
+  "json_schema_version": "2.0.0",
+  "input_preproc": [
+    {
+      "layer_name": "images",
+      "precision": "U8",
+      "format": "image",
+      "params": {
+        "resize": "aspect-ratio",
+        "color_space": "BGR",
+        "padding": {
+          "stride": 0,
+          "fill_value": [
+            114.0,
+            114.0,
+            114.0
+          ]
+        }
+      }
+    }
+  ],
+  "output_postproc": []
+}
